@@ -1,6 +1,6 @@
 ﻿require.config({
     waitSeconds: 0,
-    baseUrl: 'http://localhost/oreo/impublic/pc/js/',
+    baseUrl: 'https://liquanchen9.github.io/DesignPacking/impublic/pc/js/',
     paths: {
         // athena框架配置地址
         'text': 'libs/require/requirePlugin/text.min',
