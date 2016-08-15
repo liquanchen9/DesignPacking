@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Error</title>
+  <meta charset="utf-8"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="yes" name="apple-touch-fullscreen"/>
+  <meta content="telephone=no,email=no" name="format-detection"/>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"/>
+  <link href="//gw.alicdn.com/tps/i2/TB1nmqyFFXXXXcQbFXXE5jB3XXX-114-114.png" rel="apple-touch-icon-precomposed">
+  <link href="//gw.alicdn.com/tps/i2/TB1nmqyFFXXXXcQbFXXE5jB3XXX-114-114.png" rel="Shortcut Icon" type="image/x-icon"/>
+  <style>
+  *{
+    margin:0;
+    padding: 0;
+  }
+  html{
+    font-size: 12px;
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+.main{
+  margin: auto;
+  padding:0 1rem;
+}
+
+.errorPic{
+  text-align: center;
+  padding: 1rem;
+}
+.errorPic img{
+  max-width: 100%;
+}
+#err {
+
+}
+
+#err .tips {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom:5px;
+}
+
+#err .reason {
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+#err .reason p {
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+#err .reason li {
+    color: #333
+}
+
+#err .reason li span {
+    color: #ccc;
+    padding-left: 5px
+}
+
+#err .methods {
+    margin-bottom: 5px
+}
+
+#err .methods a {
+    color: #0B72A4
+}
+
+#err .methods .search {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#err .methods .search span {
+    color: #0B72A4
+}
+
+#err .methods .search input {
+    height: 2.2rem;
+    border: 1px solid #ccc;
+    width: 18rem;
+    padding-left: 5px;
+    outline: 0;
+    border-radius: 14px;
+}
+
+#err .methods .search input::-webkit-input-placeholder {
+    color: #ccc
+}
+
+#err .methods .search input:-moz-placeholder {
+    color: #ccc
+}
+
+#err .methods .search input::-moz-placeholder {
+    color: #ccc
+}
+
+#err .methods .search input:-ms-input-placeholder {
+    color: #ccc
+}
+
+#err .methods .search-btn {
+    cursor: pointer;
+    color: #0b72a4;
+    background: 0 0;
+    border: none
+}
+
+#err .links {
+    color: #ccc;
+    text-align: center;
+    line-height: 2em
+}
+
+#err .links a {
+    color: #0B72A4
+}
+
+#err .links span {
+    color: #ccc;
+    padding: 0 3px
+}
+
+#err .links .icon-search {
+    color: #ccc
+}
+
+#errorInfo{
+  color:#f00;
+  display: none;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+  </style>
+</head>
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=c0a82a0114712313725703368e&asid=AQAAAACMNbFXFi1negAAAACBol47+Tt1mg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+<div class="main" id="visitError">
+
+  <p class="errorPic">
+    <a id="J_Banner" href="//www.taobao.com"><img src="http://gtms04.alicdn.com/tps/i4/T1Sa1dFuJaXXaESgf7-520-500.png"></a>
+  </p>
+  <div id="err" data-spm="1997480901">
+      <div class="tips">
+          <p>抱歉！页面无法访问……</p>
+          <p id="errorInfo">错误信息：<span id="errorCode"></span></p>
+      </div>
+      <div class="reason">
+          <p>可能因为：</p>
+          <ul class="reason-list">
+              <li>网址有错误<span><i class="gt">&gt;</i>请检查地址是否完整或存在多余字符</span></li>
+              <li>网址已失效<span><i class="gt">&gt;</i>可能页面已删除，活动已下线等</span></li>
+          </ul>
+      </div>
+      <div class="methods">
+          <p><a href="//wenda.taobao.com/">了解更多原因<i class="gt">&gt;&gt;</i></a></p>
+          <div class="search">
+              <form class="search-form s-focus" action="//wenda.taobao.com/search.htm" method="get">
+                  <input type="hidden" name="from_page_type" value="1">
+                  <input type="hidden" name="cat" value="null">
+                  <input id="J_SearchReason" placeholder="直接描述问题" accesskey="s" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" type="search" autocomplete="off" name="q" value="" hidefocus="true">
+                  <button type="submit" class="search-btn">寻找答案</button>
+              </form>
+          </div>
+      </div>
+      <div class="links">
+          <p>或者逛逛：<a href="//www.taobao.com/">淘宝首页</a><span>|</span><a href="//i.taobao.com/my_taobao.htm">我的淘宝</a><span>|</span><a id="J_BtnSearchTB" href="//s.taobao.com/search">搜宝贝/店铺&nbsp;<i class="iconfont icon-search"></i></a></p>
+      </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+(function(){
+  var search = location.search;
+  if(search.indexOf('code=') > -1){
+    document.getElementById('errorInfo').style.display = 'block';
+    var code = search.split('code=')[1];
+    document.getElementById('errorCode').innerHTML = code.split('&')[0];
+  }
+})();
+</script>
+</body>
+</html>

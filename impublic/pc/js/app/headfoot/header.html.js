@@ -1,0 +1,1 @@
+define({html:'<div class="btnContainer"><img class="menubtn btn" src="impublic/pc/images/nav/menubtn.png"><img class="volbtn btn" src="impublic/pc/images/nav/volbtn.png"></div><audio id="bgMusic" src="impublic/pc/music/backgrount_music.mp3" autoplay="autoplay" loop="loop"></audio>'});

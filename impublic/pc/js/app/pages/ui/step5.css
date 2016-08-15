@@ -1,0 +1,57 @@
+#work-page #page5 {
+    left: 50%;
+    margin-left: -155px;
+}
+
+#work-page #page5 #btn_again {
+    display: inline-block;
+    width: 136px;
+    height: 51px;
+    background-image: url("../../../../images/work/page5/btn_again.png");
+    cursor: pointer;
+}
+
+#work-page #page5 #btn_blost {
+    display: inline-block;
+    width: 135px;
+    height: 51px;
+    background-image: url("../../../../images/work/page5/btn_blost.png");
+    cursor: pointer;
+}
+
+#work-page #page5 .btn:hover {
+    background-position: bottom;
+}
+
+#work-page #page5 #agreement {
+    text-align: center;
+}
+
+#work-page #page5 #agreeBox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../../../../images/work/tip/cb.png");
+    cursor: pointer;
+}
+
+#work-page #page5 .unagree {
+    background-position: right;
+}
+
+#work-page #page5 .noclickbuy {
+    pointer-events: none;
+    -webkit-filter: brightness(0.6);
+}
+
+#work-page #page5 #buybtn {
+    background-image: url("../../../../images/work/page5/buybtn.png");
+    width: 171px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -88px;
+    cursor: pointer;
+}
+

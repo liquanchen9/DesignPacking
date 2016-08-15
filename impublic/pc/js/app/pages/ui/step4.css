@@ -1,0 +1,63 @@
+#work-page #page4 {
+    left: 50%;
+    margin-left: -246px;
+}
+
+#work-page #page4 .inputBox {
+    position: relative;
+    width: 235px;
+    height: 49px;
+    display: inline-block;
+}
+
+#work-page #page4 .tagBtn {
+    cursor: pointer;
+    width: 50px;
+    height: 48px;
+    display: inline-block;
+}
+
+#work-page #page4 .tagBtn:hover {
+    background-position: bottom;
+}
+
+#work-page #page4 .sel {
+    background-position: 0px 96px;
+    pointer-events: none;
+}
+
+#work-page #page4 #tag1 {
+    background-image: url("../../../../images/work/page4/btn1.png");
+}
+
+#work-page #page4 #tag2 {
+    background-image: url("../../../../images/work/page4/btn2.png");
+}
+
+#work-page #page4 #tag3 {
+    background-image: url("../../../../images/work/page4/btn3.png");
+}
+
+#work-page #page4 #tag4 {
+    background-image: url("../../../../images/work/page4/btn4.png");
+}
+
+#work-page #page4 .inputBox .tagBb {
+    position: absolute;
+}
+
+#work-page #page4 .inputBox #inputTxt {
+    position: absolute;
+    top: 9px;
+    font-size: 22px;
+    left: 20px;
+    border: 0px;
+    background-color: transparent;
+    text-align: center;
+    width: 190px;
+
+}
+
+#work-page tspan {
+    display: block;
+}

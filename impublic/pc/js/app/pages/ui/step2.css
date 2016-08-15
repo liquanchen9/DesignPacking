@@ -1,0 +1,85 @@
+#work-page #page2 .colorPart {
+    width: 50px;
+    height: 48px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#work-page #page2 .colorPart:hover {
+    background-position: bottom;
+}
+
+#work-page #page2 {
+    left: 50%;
+    margin-left: -273px
+}
+
+#work-page #page2 .changeModeBtn {
+    display: inline-block;
+    background-image: url("../../../../images/work/page2/fillmode.png");
+    cursor: pointer;
+    width: 111px;
+    height: 47px;
+}
+
+#work-page #page2 .changeModeBtnPro {
+    background-position: bottom;
+}
+
+#work-page #page2 .fillYellow {
+    background-image: url("../../../../images/work/page2/colorbtn1.png");
+    /*background-color: #f5c474;*/
+}
+
+#work-page #page2 .fillGreen {
+    background-image: url("../../../../images/work/page2/colorbtn2.png");
+    /*background-color: #a7cf98;*/
+}
+
+#work-page #page2 .fillBlue {
+    background-image: url("../../../../images/work/page2/colorbtn3.png");
+    /*background-color: #56c0e5;*/
+}
+
+#work-page #page2 .fillPink {
+    background-image: url("../../../../images/work/page2/colorbtn4.png");
+    /*background-color: #d87c9c;*/
+}
+
+#work-page #page2 .fillViolet {
+    background-image: url("../../../../images/work/page2/colorbtn5.png");
+    /*background-color: #9379b5;*/
+}
+
+#work-page #page2 .sel {
+    background-position: bottom;
+    pointer-events: none;
+}
+
+#work-page #page2 .btn {
+    width: 48px;
+    height: 45px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#work-page #page2 .btn1 {
+    background-image: url("../../../../images/work/page2/btn1.png");
+}
+
+#work-page #page2 .btn2 {
+    background-image: url("../../../../images/work/page2/btn2.png");
+}
+
+#work-page #page2 .btn3 {
+    background-image: url("../../../../images/work/page2/btn3.png");
+}
+
+#work-page #page2 .btn:hover {
+    background-position: bottom;
+}
+
+.svgBig {
+    transform: scale(1.5);
+}
+

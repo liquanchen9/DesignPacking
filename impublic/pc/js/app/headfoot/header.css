@@ -1,0 +1,28 @@
+#header {
+    /*top: 0px;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*background: #aaa;*/
+    /*text-align: center;*/
+}
+
+#header .btnContainer {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#header .btn {
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#header .volbtn:hover {
+    -webkit-filter: brightness(0.9);
+}
+
+#header .menubtn:hover {
+    -webkit-filter: brightness(0.9);
+}
+

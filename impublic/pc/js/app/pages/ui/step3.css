@@ -1,0 +1,83 @@
+
+#work-page #page3 #logoContent {
+    /*overflow: hidden;*/
+    /*width: 400px;*/
+}
+
+#work-page #page3 .logoBtn {
+    cursor: pointer;
+    width: 114px;
+    height: 47px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+#work-page #page3 .logoBtn:hover {
+    background-position: bottom;
+}
+
+#work-page #page3 .sel {
+    pointer-events: none;
+    background-position: bottom;
+}
+
+#work-page #page3 #wow {
+    background-image: url("../../../../images/work/page3/wow.png");
+}
+
+#work-page #page3 #cool {
+    background-image: url("../../../../images/work/page3/cool.png");
+}
+
+#work-page #page3 #omg {
+    background-image: url("../../../../images/work/page3/omg.png");
+}
+
+#work-page #page3 #go {
+    background-image: url("../../../../images/work/page3/go.png");
+}
+
+#work-page #page3 #xoxo {
+    background-image: url("../../../../images/work/page3/xoxo.png");
+}
+
+#work-page #page3 #olast {
+    background-image: url("../../../../images/work/page3/olast.png");
+}
+
+#work-page #page3 {
+    left: 50%;
+    margin-left: -224px;
+}
+
+#work-page #page3 #rbtn {
+    position: absolute;
+    top:0px;
+    left: 412px;
+    cursor: pointer;
+}
+
+#work-page #page3 #lbtn {
+    cursor: pointer;
+}
+
+#work-page #chooseTag {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#work-page #page3 #btnsMove {
+    position: absolute;
+    width: 800px;
+}
+
+#work-page #page3 #btnContent {
+    position: absolute;
+    top:0px;
+    left: 55px;
+    width: 352px;
+    height: 55px;
+    overflow: hidden;
+    display: inline-block;
+}

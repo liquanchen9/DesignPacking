@@ -1,0 +1,71 @@
+
+#work-page #page1 .picBtn {
+    width: 137px;
+    height: 52px;
+    display: inline-block;
+    background-position: 0px 52px;
+    cursor: pointer;
+}
+
+#work-page #page1 .picBtn:hover {
+    background-position: 0px 104px;
+}
+
+#work-page #page1 .sel {
+    background-position: 0px 0px;
+    pointer-events: none;
+}
+
+#work-page #page1 .btn1 {
+    background-image: url("../../../../images/work/page1/btn1.png");
+}
+
+#work-page #page1 .btn2 {
+    background-image: url("../../../../images/work/page1/btn2.png");
+}
+
+#work-page #page1 .btn3 {
+    background-image: url("../../../../images/work/page1/btn3.png");
+}
+
+#work-page #page1 #scaleController .btn {
+    position: absolute;
+    top: 0px;
+    width: 50px;
+    height: 75px;
+    background-color: red;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#work-page #bgGroup {
+
+}
+.step1cursor{
+    cursor: url("../../../../images/work/page1/hand_off.png"), pointer;
+}
+
+#work-page #page1 #scaleController {
+    display: inline-block;
+    position: relative;
+}
+
+#work-page #page1 {
+    left: 50%;
+    margin-left: -310px;
+
+}
+
+#work-page #page1 #scaleController .scaleB_Btn {
+    left: 140px;
+}
+
+#work-page #page1 #slide_btn {
+    position: absolute;
+    top: 10px;
+    left: 50px;;
+    cursor: pointer;
+
+}
+
+

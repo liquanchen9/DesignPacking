@@ -1,0 +1,62 @@
+#tip1-pop .pop-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 663px;
+    height: 483px;
+    margin-left: -332px;
+    margin-top: -242px;
+}
+
+#tip1-pop .content {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 560px;
+    height: 390px;
+
+}
+
+#tip1-pop .hdgzCon {
+    width: 480px;
+    height: 295px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#tip1-pop .hdgz {
+    position: absolute;
+    top: 0px;
+
+}
+
+#tip1-pop .closeBtn {
+    position: absolute;
+    top: -30px;
+    right: -39px;
+    cursor: pointer;
+}
+
+#tip1-pop .closeBtn:hover {
+    -webkit-filter: brightness(1.2);
+}
+
+#tip1-pop .scroll-barC {
+    position: absolute;
+    width: 10px;
+    height: 296px;
+    top: 70px;
+    left: 540px;
+}
+
+#tip1-pop #dragbtn {
+    position: absolute;
+    top: 0px;
+    left: -16px;
+    cursor: pointer;
+}
+
+#tip1-pop .title {
+    margin-left: 170px;
+    margin-bottom: 15px;
+}
