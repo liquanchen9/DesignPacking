@@ -157,7 +157,7 @@ define(['model', 'snap', 'base64', 'jpgEncoder', 'canvg'], function (SiteModel) 
 
                                 var workId;
                                 $("#svgContainer").append(oldstr);
-                                $.post("background/saveWork.json?s=User/doSaveWork",
+                                $.get("background/saveWork.json?s=User/doSaveWork",
                                     {
                                         svg: str
                                     },
@@ -165,7 +165,7 @@ define(['model', 'snap', 'base64', 'jpgEncoder', 'canvg'], function (SiteModel) 
                                         var val = JSON.parse(data);
                                         //console.log(val);
                                         workId = val.data.workId;
-                                        $.post("background/saveImage.json?s=User/doSaveImg",
+                                        $.get("background/saveImage.json?s=User/doSaveImg",
                                             {
                                                 id: workId,
                                                 file: b64,
