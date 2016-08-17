@@ -33,7 +33,7 @@
         !(function () {
             var isTop = window.top == window;
             var isWeixin = /(micromessenger)/ig.test(navigator.userAgent);
-            
+            var aliApiScripts = '';
 			document.write(aliApiScripts + '<scr' + 'ipt src="' + staticDir + 'js/loading.js?_=' + jVersion + '"></scr' + 'ipt>');
         
         })();
