@@ -111,7 +111,7 @@
     cursor: pointer;
     width: 248px;
     height: 63px;
-    background-image: url("impublic/pc/images/work/page1/nextbtn.png");
+    background-image: url("../../../../impublic/pc/images/work/page1/nextbtn.png");
 }
 
 #work-page .nextBtn:hover {
