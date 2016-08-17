@@ -111,7 +111,7 @@
     cursor: pointer;
     width: 248px;
     height: 63px;
-    background-image: url("../../../../images/work/page1/nextbtn.png");
+    background-image: url("../../../images/work/page1/nextbtn.png");
 }
 
 #work-page .nextBtn:hover {
@@ -239,23 +239,23 @@
 }
 
 .bgGroupColor1 {
-    cursor: url("../../../../images/work/page2/brush1.png") 14 111, pointer;
+    cursor: url("../../../images/work/page2/brush1.png") 14 111, pointer;
 }
 
 .bgGroupColor2 {
-    cursor: url("../../../../images/work/page2/brush2.png") 14 111, pointer;
+    cursor: url("../../../images/work/page2/brush2.png") 14 111, pointer;
 }
 
 .bgGroupColor3 {
-    cursor: url("../../../../images/work/page2/brush3.png") 14 111, pointer;
+    cursor: url("../../../images/work/page2/brush3.png") 14 111, pointer;
 }
 
 .bgGroupColor4 {
-    cursor: url("../../../../images/work/page2/brush4.png") 14 111, pointer;
+    cursor: url("../../../images/work/page2/brush4.png") 14 111, pointer;
 }
 
 .bgGroupColor5 {
-    cursor: url("../../../../images/work/page2/brush5.png") 14 111, pointer;
+    cursor: url("../../../images/work/page2/brush5.png") 14 111, pointer;
 }
 
 .bgGroupColorIE {
