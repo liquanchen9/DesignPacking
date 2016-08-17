@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>奥利奥缤纷填色装</title>
+    <style type="text/css">
+        body { color: #000; line-height: 180%; font-size: 24px; margin: 0px; font-family: 'Microsoft YaHei'; resize: none; }
+        html { background: #F5F5F5; overflow: auto; resize: none; }
+        a { text-decoration: none; cursor: pointer; color: #fff; }
+            a img, a image { border: none; cursor: pointer; }
+        .center { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
+        .psd { position: absolute; left: 0px; top: 50%; transform: translate(0%, -50%); -webkit-transform: translate(0%, -50%); -o-transform: translate(0%, -50%); -moz-transform: translate(0%, -50%); -ms-transform: translate(0%, -50%); }
+
+        .root { width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; }
+        /*end common*/
+        .loading { color: #fd2c0b; height: 37px; }
+            .loading span { font-size: 24px; }
+        .preload { color: #666; }
+        .btn1 { display: block; width: 100%; color: #fff; text-align: center; font-size: 26px; }
+        .none_sel { -moz-user-select: none; -khtml-user-select: none; user-select: none; -webkit-user-select: none; -ms-user-select: none; }
+    </style>
+    <script>
+        if (/(micromessenger)/ig.test(navigator.userAgent)) {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-74990586-1', 'auto');
+            ga('send', 'pageview');
+        }
+    </script>
+
+</head>
+<body>
+    <div id="cbox">
+        <div id="cmain">
+        </div>
+    </div>
+    <div id="rotate"></div>
+    <script>
+        var jDebug = false;
+        "localhost,192.168.,127.,10.".split(',').forEach(function (o) { if (!location.hostname.indexOf(o)) jDebug = true; });
+        var staticDir = "http://static.im20.com.cn/v1462474932!/oreocolorfilled.im20.com.cn/impublic/mobile/", jVersion = 156;
+        !(function () {
+            var isTop = window.top == window;
+            var isWeixin = /(micromessenger)/ig.test(navigator.userAgent);
+            var isIm20 = location.host.indexOf("im20.com.cn") >= 0;
+            if (!jDebug && isTop) {
+                if (isWeixin) {
+                    if (!isIm20) {
+                        location.href = "http://oreocolorfilled.im20.com.cn/mobile/";
+                        return;
+                    }
+                }
+                else {
+                    location.href = 'https://detail.tmall.com/item.htm?spm=a1z10.1-b.w5003-12164966820.2.1xhixc&id=530768014497&scene=taobao_shop';
+                    return;
+                }
+            }
+
+            var aliApiScripts = '';
+            if (!jDebug && !isWeixin) {
+                aliApiScripts = '<scr' + 'ipt src="//g.alicdn.com/tp/customization/index.js?v=2908959818_3646"></scr' + 'ipt>';
+            }
+            if (jDebug && location.search.indexOf("?jDebug") < 0) {
+                jVersion = Math.round(new Date().getTime() / 600000);
+                document.write(aliApiScripts + '<scr' + 'ipt id="loading_js" src="' + staticDir + 'src/cache/jLoad.js?_=' + jVersion + '"></scr' + 'ipt>');
+            } else document.write(aliApiScripts + '<scr' + 'ipt src="' + staticDir + 'js/loading.js?_=' + jVersion + '"></scr' + 'ipt>');
+        })();
+    </script>
+</body>
+</html>
